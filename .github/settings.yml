@@ -6,10 +6,8 @@ _extends: .github
 repository:
   name: GeoShim
   description: >-
-    System-wide iOS location spoofing by hooking locationd, so it reaches
-    roothide-blacklisted apps that block tweak injection. Rewrites
-    CLLocation/CLVisit on the daemon's XPC serialization path and defeats
-    sourceInformation.isSimulatedBySoftware.
+    System-wide iOS location spoofing in locationd, reaching even apps that
+    block tweak injection
   homepage: ""
   private: false
   # Topics: comma-and-space separated string, NOT a YAML list.
